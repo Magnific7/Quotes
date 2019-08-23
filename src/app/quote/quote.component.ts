@@ -17,6 +17,11 @@ export class QuoteComponent implements OnInit {
     {id:6,name:'Without music, life would be a mistake.',description:'Friedrich Nietzsche, Twilight of the Idols'},
    ]
    
+   deleteQuote(isComplete, index){
+    if (isComplete) {
+      this.quotes.splice(index,1);
+    }
+  }
   constructor() { }
 
   ngOnInit() {

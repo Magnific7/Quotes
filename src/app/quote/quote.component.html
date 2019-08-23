@@ -8,8 +8,8 @@
 <h2>Here are a few quotes that may help you in daily life.</h2>
 <hr>
 <ul>
-  <li *ngFor='let quote of quotes'>
+  <li *ngFor='let quote of quotes; let i=index'>
   {{quote.name}}
-  <app-quote-detail [quote]='quote'></app-quote-detail>
+  <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
   </li>
 </ul>
