@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Quote } from '../quote';
+
 
 @Component({
   selector: 'app-quote',
@@ -21,6 +22,14 @@ export class QuoteComponent implements OnInit {
     if (isComplete) {
       this.quotes.splice(index,1);
     }
+  }
+  numberOfLikes: number = 0;
+
+  likeButtonClick(){
+   this.numberOfLikes++;
+  }
+  dislikeButtonclick(){
+  this.numberOfLikes--;
   }
   constructor() { }
 

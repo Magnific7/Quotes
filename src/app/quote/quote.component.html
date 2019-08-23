@@ -13,3 +13,7 @@
   <app-quote-detail  [quote]='quote' (isComplete) = 'deleteQuote($event,i)'></app-quote-detail>
   </li>
 </ul>
+<div>
+  <button (click)="likeButtonClick()">Like</button>
+  <button (click)="dislikeButtonClick()">Dislike</button>
+</div>
