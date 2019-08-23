@@ -14,8 +14,8 @@ export class QuoteComponent implements OnInit {
     {id:2,name:'Be the change that you wish to see in the world.',description:'_Mahatma Gandhi'},
     {id:3,name:'In three words I can sum up everything I have learned about life: it goes on.',description:'_Robert Frost'},
     {id:4,name:'No one can make you feel inferior without your consent.',description:'_Eleanor Roosevelt, This is her My Story'},
-    {id:5,name:"If you tell the truth, you don't have to remember anything.",description:'Mark Twain'},
-    {id:6,name:'Without music, life would be a mistake.',description:'Friedrich Nietzsche, Twilight of the Idols'},
+    {id:5,name:"If you tell the truth, you don't have to remember anything.",description:'_Mark Twain'},
+    {id:6,name:'Without music, life would be a mistake.',description:'_Friedrich Nietzsche, Twilight of the Idols'},
    ]
    
    deleteQuote(isComplete, index){
