@@ -20,7 +20,7 @@ export class QuoteComponent implements OnInit {
    addNewQuote(quote){
     let quoteLength = this.quotes.length;
     quote.id = quoteLength+1;
-    // quote.completeDate = new Date(quote.completeDate)
+    quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
   }
   toggleDetails(index){
@@ -36,14 +36,14 @@ export class QuoteComponent implements OnInit {
     }
   }
   
-  numberOfLikes: number = 0;
+  // numberOfLikes: number = 0;
 
-  likeButtonClick(){
-   this.numberOfLikes++;
-  }
-  dislikeButtonclick(){
-  this.numberOfLikes--;
-  }
+  // likeButtonClick(){
+  //  this.numberOfLikes++;
+  // }
+  // dislikeButtonclick(){
+  // this.numberOfLikes--;
+  // }
   constructor() { }
 
   ngOnInit() {
