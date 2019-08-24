@@ -7,7 +7,9 @@
     the rest of the world.
   </p>
   <hr />
-  <form #quoteForm="ngForm">
+  
+  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+ 
     <div class="form-group">
       <label for="name">Quote</label>
       <textarea
@@ -20,7 +22,7 @@
         required
       ></textarea>
       <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-          <p>Please give us a quote 	&#129298</p>
+          <p>Please give us a quote </p>
         </div>
       
 
@@ -40,19 +42,15 @@
         required
       ></textarea>
       <div [hidden]="description.valid || description.pristine" class="alert alert-danger">
-          <p>Please do tell us whose quote is it &#128525</p>
+          <p>Please do tell us whose quote is it</p> 
     </div>
-    <!-- <div class="form-group">
-          <label for="complete">Completion</label>
-          <input type='date' id="complete" required>
 
-      </div> -->
-  </form>
+  <!-- </form> -->
 </div>
 <div class="form-group">
 
-    <label for="complete">Completion</label>
-    <!-- <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
+    <!-- <label for="complete">Completion</label>
+   <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
     <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
       <p>Date is required</p>
     </div> -->
