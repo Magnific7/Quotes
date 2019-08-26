@@ -1,27 +1,34 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+#### By **UM Magnific**
 
-## Development server
+## Description
+This is an application where you can get quotes from wise people and also share your own quote.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Author
+This application was made by a student in Moringa school called UM Magnific.
+* email:mjones6944@gmail.com
 
-## Code scaffolding
+## Setup/Installation Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To view the website, 
+* click [Magnific's website]
+('https://magnific7.github.io/Quotes/') or 
+* copy the link and paste it to your browser and load it.  
 
-## Build
+## Known Bugs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+You might find the time you created the Quote is not accurate but we are working on that.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Built With :
 
-## Running end-to-end tests
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+* BOOTSTRAP
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Support and contact details
+In case you meet any bugs please let us know .
+You can contact us on 0785712803
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### License
+Copyright by Me 2019 **Moringa School**
