@@ -1,5 +1,11 @@
 <p>
-  {{quote.description}}
+  Author:{{quote.description}}
 </p>
 <p>This quote was written  {{quote.completeDate|timeCount}}seconds ago</p>
+Submitted by {{quote.names}}
+<p class="card-text">upVotes: {{upVotes}}</p>
+  <p class="card-text">downVotes: {{downVotes}}</p>
+  
+  <button class="btn btn-outline-success" (click)="likeVote()">UpVote</button>
+  <button class="btn btn-outline-info" (click)="dislikeVote()">DownVote</button>
 <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete quote</button>

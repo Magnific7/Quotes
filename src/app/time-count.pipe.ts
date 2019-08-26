@@ -10,13 +10,11 @@ export class TimeCountPipe implements PipeTransform {
     let todayWithNoTime:any = new Date(today.getDate())
     var dateDifference = Math.abs(todayWithNoTime) 
     const secondsInDay = 86400; 
-    var dateDifferenceSeconds = dateDifference*0.001;
+    var dateDifferenceSeconds = Math.round(dateDifference*0.001);
 
 
-    if ( dateDifferenceSeconds >= 1){
+  
       return dateDifferenceSeconds;
-    }else{
-      return 0;
-    }
+  
   }
 }
