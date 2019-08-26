@@ -28,3 +28,6 @@ To view the website,
 ## Support and contact details
 In case you meet any bugs please let us know .
 You can contact us on 0785712803
+
+### License
+Copyright by Me 2019 **Moringa School**
