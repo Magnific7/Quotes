@@ -13,3 +13,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Author
 This application was made by a student in Moringa school called UM Magnific.
 * email:mjones6944@gmail.com
+
+## Setup/Installation Requirements
+
+To view the website, 
+* click [Magnific's website]
+('https://magnific7.github.io/Quotes/') or 
+* copy the link and paste it to your browser and load it.  
