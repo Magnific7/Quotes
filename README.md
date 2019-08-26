@@ -21,6 +21,11 @@ To view the website,
 ('https://magnific7.github.io/Quotes/') or 
 * copy the link and paste it to your browser and load it.  
 
+## Known Bugs
+
+You might find the time you created the Quote is not accurate but we are working on that.
+
+
 ## Built With :
 
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
