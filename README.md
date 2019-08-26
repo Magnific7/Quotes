@@ -24,3 +24,7 @@ To view the website,
 ## Built With :
 
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+
+## Support and contact details
+In case you meet any bugs please let us know .
+You can contact us on 0785712803
