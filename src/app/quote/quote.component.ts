@@ -10,12 +10,12 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes: Quote[] = [
-    new Quote(1, 'You only live once, but if you do it right, once is enough.', '_Mae West','Mag'),
-    new Quote(2,'Be the change that you wish to see in the world.','_Mahatma Gandhi','Mag'),
-    new Quote(3,'In three words I can sum up everything I have learned about life, it goes on.','_Robert Frost','Mag'),
-    new Quote(4,'No one can make you feel inferior without your consent.','_Eleanor Roosevelt','Mag'),
-    new Quote(5,"If you tell the truth, you don't have to remember anything.",'_Mark Twain','Mag'),
-    new Quote(6,'Without music, life would be a mistake.','_Friedrich Nietzsche','Mag'),
+    new Quote(1, 'You only live once, but if you do it right, once is enough.', '_Mae West','Mag',new Date(2019,3,7)),
+    new Quote(2,'Be the change that you wish to see in the world.','_Mahatma Gandhi','Mag',new Date(2019,3,7)),
+    new Quote(3,'In three words I can sum up everything I have learned about life, it goes on.','_Robert Frost','Mag',new Date(2019,3,7)),
+    new Quote(4,'No one can make you feel inferior without your consent.','_Eleanor Roosevelt','Mag',new Date(2019,3,7)),
+    new Quote(5,"If you tell the truth, you don't have to remember anything.",'_Mark Twain','Mag',new Date(2019,3,7)),
+    new Quote(6,'Without music, life would be a mistake.','_Friedrich Nietzsche','Mag',new Date(2019,3,7)),
   ]
    addNewQuote(quote){
     let quoteLength = this.quotes.length;
